@@ -1,0 +1,26 @@
+{
+  "order": [
+    "input1",
+    "input2",
+    "cb3"
+  ],
+  "input1": {
+    "type": "input",
+    "title": "Первый инпут",
+    "path": "root.input",
+    "visible": true,
+    "editable": true
+  },
+  "input2": {
+    "type": "input",
+    "title": "Второй инпут",
+    "path": "root.node1.node2.input",
+    "visible": true,
+    "editable": true
+  },
+  "cb3": {
+    "type": "checkbox",
+    "title": "Чекбокс",
+    "path": "root.check"
+  }
+}
